@@ -1,6 +1,6 @@
 # Luta Imobiliária 
 
-O jogo de terminal Linux Luta Imobiliária foi criado com o intuito de aprender mais sobre a linguagem swift, sendo a minha primeira implementação. O projeto e desenvolvimento foi feito em grupo e a inspiração foram jogos de RPG dos anos 2000. Utilizamos ASCII art para compor todas as cenas e interfaces e tomamos como base narrativa a crise imobiliária de São Paulo.
+O jogo de terminal Linux Luta Imobiliária foi criado com o intuito de aprender mais sobre a linguagem swift, sendo a minha primeira implementação. O projeto e desenvolvimento foi feito em grupo, com [@Francisco][https://github.com/LosadaT] e [@Gustavo][https://github/7uigi], e a inspiração foram jogos de RPG dos anos 2000. Utilizamos ASCII art para compor todas as cenas e interfaces e tomamos como base narrativa a crise imobiliária de São Paulo.
 
 ## Tela Inicial
  Página principal, em que o usuário pode escolher entre abrir o menu de ajuda, iniciar o jogo ou sair da aplicação.
