@@ -15,12 +15,6 @@ else{
 }
 // Valores Booleanos
 var repeticao: Bool = true
-var pedra: Bool = false
-var livro: Bool = false
-var vida: Bool = false
-var ataque: Bool = false
-var destrancado: Bool = false
-var estante: Bool = false
 var hp = player1.hp
 
 // While para Logica de cenas

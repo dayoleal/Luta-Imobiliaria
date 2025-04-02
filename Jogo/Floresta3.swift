@@ -2,7 +2,8 @@ class Floresta3{
     static let CASE_ARBUSTO : String = "arbusto"
     static let CASE_FLORESTA3: String = "floresta3"
     static let CASE_ESPADA: String = "espada"
-    
+    static var pedra: Bool = false
+    static var ataque: Bool = false
     //Menu floresta3
     static func entrarFloresta3()->String{
         printMatriz(matrizFloresta3)

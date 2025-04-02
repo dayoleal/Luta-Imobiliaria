@@ -71,13 +71,13 @@ class FrenteCasa{
         printMatriz(matrizJanela1)
         opc = opcao()
         if (opc == "1"){
-            // Caso o Jogador já tenha matado o Castor
-            if(pedra == true){
+            //Caso o Jogador já tenha matado o Castor
+            if(Floresta3.pedra == true){
                 printMatriz(matrizJanela4)
                 opc = opcao()
                 return Casa.CASE_CASA
             }
-            // Caso o Jogador não tenha matado o Castor
+            //Caso o Jogador não tenha matado o Castor
             else{
                 printMatriz(matrizJanela2)
                 opc = opcao()

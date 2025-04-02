@@ -6,7 +6,9 @@ class Casa{
     static let CASE_ALCAPAO: String = "alcapao"
     static let CASE_DIALOGO_INIMIGO: String = "dialogoInimigo"
     static let CASE_SENHA: String = "senha"
-    
+    static var destrancado: Bool = false
+    static var estante: Bool = false
+    static var livro: Bool = false
     //Menu casa
     static func entrarCasa()->String{
         printMatriz(matrizCasa)
