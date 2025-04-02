@@ -4,7 +4,7 @@ class Combate{
     var defesaEnemy: Bool = false
 
     //as possíveis ações do jogador
-    func acaoCombatePlayer(_ acao: String) -> Double{
+    private func acaoCombatePlayer(_ acao: String) -> Double{
         var dano: Double = 0
         switch acao{
         //Caso a escolha do jogador for Ataque o poder dele vai ser definido aleatoriamente.
@@ -36,7 +36,7 @@ class Combate{
     }
     
     //ataques aleatórios do inimigo
-    func acaoCombateEnemy(enemy: Enemy, turno: Int) -> Double{
+    private func acaoCombateEnemy(enemy: Enemy, turno: Int) -> Double{
         var dano: Double = 0
         let acao = randEnemy(turno: turno)
         switch acao{
@@ -71,7 +71,7 @@ class Combate{
     }
      
     //escolha aleatória das ações do Inimigo.
-    func randEnemy(turno: Int)->Int{
+    private func randEnemy(turno: Int)->Int{
         let random = Int.random(in: 1..<4)
         if random == 3 && turno >= 3{
             return random
