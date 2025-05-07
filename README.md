@@ -1,34 +1,63 @@
-# Luta Imobiliária 
+# 🌆 Luta Imobiliária
 
-O jogo de terminal Linux Luta Imobiliária foi criado com o intuito de aprender mais sobre a linguagem swift, sendo a minha primeira implementação. O projeto e desenvolvimento foi feito em grupo, com [@Francisco](https://github.com/LosadaT) e [@Gustavo](https://github.com/7uigi/projeto), e a inspiração foram jogos de RPG dos anos 2000. Utilizamos ASCII art para compor todas as cenas e interfaces e tomamos como base narrativa a crise imobiliária de São Paulo.
+**Luta Imobiliária** is a terminal-based RPG-style game built using Swift. It was my first project using this programming language and was developed collaboratively with [@Francisco](https://github.com/LosadaT) and [@Gustavo](https://github.com/7uigi/projeto). Inspired by early 2000s RPGs, the game uses ASCII art for visuals and is set against the backdrop of São Paulo's real estate crisis, exploring social and economic themes in an engaging way.
 
-## Tela Inicial
- Página principal, em que o usuário pode escolher entre abrir o menu de ajuda, iniciar o jogo ou sair da aplicação.
- 
-![homepage](https://github.com/dayoleal/Luta-Imobili-ria/blob/baa2dd28ed0dd1fc241f3953b827215de20efa15/assets/homepage.png)
+---
 
-## Menu de Ajuda
- Exibição de um menu explicativo com as principais mecânicas e dicas sobre o jogo.
- 
-![help](https://github.com/dayoleal/Luta-Imobili-ria/blob/baa2dd28ed0dd1fc241f3953b827215de20efa15/assets/help.png)
+## Overview
 
-## Prólogo
-Página de contextualização sobre a narrativa do jogo.
+This game aims to merge retro RPG gameplay with social commentary. Players navigate through different levels, solve puzzles, engage in combat, and experience a narrative based on the challenges faced by citizens in São Paulo's real estate market.
 
-![prologo](https://github.com/dayoleal/Luta-Imobili-ria/blob/baa2dd28ed0dd1fc241f3953b827215de20efa15/assets/prologo.png)
+### Features:
+- **ASCII Art**: All game scenes and interfaces are crafted using ASCII art, adding a nostalgic feel.
+- **Storyline**: The plot revolves around navigating the economic struggles in São Paulo, particularly the real estate crisis.
+- **Multiple Combat Scenarios**: Players face various opponents, each contributing to the progression of the story.
 
-## Puzzle
-Cenário onde o usuário encontra a resposta de um puzzle.
+---
 
-![estante](https://github.com/dayoleal/Luta-Imobili-ria/blob/baa2dd28ed0dd1fc241f3953b827215de20efa15/assets/estante.png)
+## Technologies Used
 
-## Combate Secundário
-Interface de combate com adversário secundário na narrativa.
+- **Swift**: The game is developed using Swift, providing a fast and efficient experience on terminal-based environments.
+- **ASCII Art**: Visuals for the game are created using ASCII characters, giving the game a unique retro aesthetic.
+- **Terminal/Command-Line Interface**: The game runs in a Linux terminal, making it lightweight and accessible for users who prefer text-based experiences.
 
-![esqueleto](https://github.com/dayoleal/Luta-Imobili-ria/blob/baa2dd28ed0dd1fc241f3953b827215de20efa15/assets/esqueleto.png)
+---
 
+## Narrative
 
-## Combate Final
-Menu de combate com o adversário principal.
+The game is set during the real estate crisis in São Paulo, where gentrification and the collapse of affordable housing options have dramatically affected the city. Players take on the role of a character who must navigate this turbulent urban landscape, dealing with issues like housing instability, economic inequality, and corporate greed.
 
-![combate](https://github.com/dayoleal/Luta-Imobili-ria/blob/baa2dd28ed0dd1fc241f3953b827215de20efa15/assets/combate.png)
+As players progress through the game, they will face moral dilemmas, engage in battles against adversaries representing various societal forces, and solve puzzles related to economic and political struggles. The game's ending depends on the choices the player makes throughout, offering multiple paths and outcomes based on their actions.
+
+The central conflict revolves around the main antagonist, a powerful real estate mogul who seeks to dominate the city's property market at the expense of its residents. Players must defeat this antagonist in a final combat scenario that symbolizes the struggle of the common people against oppressive economic forces.
+
+---
+
+## Screenshots
+
+### **Final Battle**
+The final showdown with the main antagonist, where players face their ultimate challenge.
+
+![Final Combat](https://github.com/dayoleal/Luta-Imobili-ria/blob/baa2dd28ed0dd1fc241f3953b827215de20efa15/assets/combate.png)
+
+---
+
+## How to Play
+
+1. **Launch the Game**: Open the terminal and run the game to begin.
+2. **Navigate Menus**: Use simple text inputs to navigate through the menu options.
+3. **Solve Puzzles**: Progress through the game by solving challenges that reflect the economic struggles in the game's narrative.
+4. **Engage in Combat**: Defeat opponents using strategy and in-game mechanics to reach the final boss.
+
+---
+
+## Contributing
+
+Contributions are welcome! If you'd like to improve the game, fix bugs, or add features, feel free to fork the repository and submit a pull request.
+
+---
+
+## Credits
+
+- **Developers**: [@Francisco](https://github.com/LosadaT), [@Gustavo](https://github.com/7uigi/projeto), [@Dayoleal](https://github.com/dayoleal)
+- **Art**: All in-game visuals are crafted using ASCII art.
